@@ -1,0 +1,253 @@
+CRTE_SNAPSHOT_START
+
+SECTION_CRTE_VERSION
+3.0
+
+SECTION_PID
+4002023
+
+SECTION_POLLING_INTERVAL
+5
+
+SECTION_DATE_TIME
+Mon Dec 09 21:49:44 CST 2019 (1575949784)
+
+SECTION_OS_VERSION
+osname: Linux
+hostname: tux-103
+arch: x86_64
+release_version: 4.9.0-11-amd64
+
+SECTION_IPC_INFO
+
+------ Message Queues --------
+key        msqid      owner      perms      used-bytes   messages    
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x00000000 39288832   lightdm    600        524288     2          dest         
+0x00000000 39321601   lightdm    600        134217728  2          dest         
+
+------ Semaphore Arrays --------
+key        semid      owner      perms      nsems     
+
+
+SECTION_ULIMIT
+core file size          (blocks, -c) 8192
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 16
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 63731
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1024
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+SECTION_SYSCONF
+_SC_THREAD_SAFE_FUNCTIONS= 200809
+_SC_CLK_TCK= 100
+_SC_OPEN_MAX= 1024
+_SC_PAGE_SIZE= 4096
+_SC_ARG_MAX= 2097152
+_SC_CHILD_MAX= 1024
+_SC_LINE_MAX= 2048
+
+SECTION_FULL_COMMAND
+/cae/apps/data/synopsys-2019/syn/P-2019.03/linux64/syn/bin/common_shell_exec -shell design_vision -r /cae/apps/data/synopsys-2019/syn/P-2019.03 -shell dc_sheff -f eBike.dc
+
+SECTION_CPUINFO
+total_core: 4
+
+model_name:  Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+cpu_family: 6
+core_frequency_mhz: 3663
+core_per_socket: 0
+stepping: 9
+cache_size_kb: 6144
+ht: 0
+
+model_name:  Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+cpu_family: 6
+core_frequency_mhz: 3755
+core_per_socket: 0
+stepping: 9
+cache_size_kb: 6144
+ht: 0
+
+model_name:  Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+cpu_family: 6
+core_frequency_mhz: 3638
+core_per_socket: 0
+stepping: 9
+cache_size_kb: 6144
+ht: 0
+
+model_name:  Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+flags:  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb invpcid_single ssbd ibrs ibpb stibp kaiser tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+cpu_family: 6
+core_frequency_mhz: 3658
+core_per_socket: 0
+stepping: 9
+cache_size_kb: 6144
+ht: 0
+
+SECTION_OS_RELEASE_VERSION
+Cannot determine the OS version: neither of /etc/redhat-release, /etc/SuSE-release or /etc/centos-release files are found
+
+SECTION_SYS/VM
+/proc/sys/vm/admin_reserve_kbytes:8192
+/proc/sys/vm/block_dump:0
+/proc/sys/vm/compact_unevictable_allowed:1
+/proc/sys/vm/dirty_background_bytes:0
+/proc/sys/vm/dirty_background_ratio:10
+/proc/sys/vm/dirty_bytes:0
+/proc/sys/vm/dirty_expire_centisecs:3000
+/proc/sys/vm/dirty_ratio:20
+/proc/sys/vm/dirtytime_expire_seconds:43200
+/proc/sys/vm/dirty_writeback_centisecs:500
+/proc/sys/vm/drop_caches:0
+/proc/sys/vm/extfrag_threshold:500
+/proc/sys/vm/hugepages_treat_as_movable:0
+/proc/sys/vm/hugetlb_shm_group:0
+/proc/sys/vm/laptop_mode:0
+/proc/sys/vm/legacy_va_layout:0
+/proc/sys/vm/lowmem_reserve_ratio:256	256	32	1
+/proc/sys/vm/max_map_count:65530
+/proc/sys/vm/memory_failure_early_kill:0
+/proc/sys/vm/memory_failure_recovery:1
+/proc/sys/vm/min_free_kbytes:67584
+/proc/sys/vm/min_slab_ratio:5
+/proc/sys/vm/min_unmapped_ratio:1
+/proc/sys/vm/mmap_min_addr:4096
+/proc/sys/vm/nr_hugepages:0
+/proc/sys/vm/nr_hugepages_mempolicy:0
+/proc/sys/vm/nr_overcommit_hugepages:0
+/proc/sys/vm/nr_pdflush_threads:0
+/proc/sys/vm/numa_zonelist_order:default
+/proc/sys/vm/oom_dump_tasks:1
+/proc/sys/vm/oom_kill_allocating_task:0
+/proc/sys/vm/overcommit_kbytes:0
+/proc/sys/vm/overcommit_memory:0
+/proc/sys/vm/overcommit_ratio:50
+/proc/sys/vm/page-cluster:3
+/proc/sys/vm/panic_on_oom:1
+/proc/sys/vm/percpu_pagelist_fraction:0
+/proc/sys/vm/stat_interval:1
+/proc/sys/vm/swappiness:60
+/proc/sys/vm/user_reserve_kbytes:131072
+/proc/sys/vm/vfs_cache_pressure:100
+/proc/sys/vm/watermark_scale_factor:10
+/proc/sys/vm/zone_reclaim_mode:0
+
+
+SECTION_SWAP
+swap_partition: /dev/dm-0
+size_gb: 7
+
+CRTE_SNAPSHOT_END
+
+CRTE_PERIODIC_START 1 1575949784372
+
+SECTION_MPSTAT
+total_core: 4
+
+CPU     %user   %kernel %wait   %idle   
+all   0.517316 0.419920 0.019463 99.043297
+0     0.520158 0.242730 0.007179 99.229935
+1     0.477822 0.318508 0.021731 99.181946
+2     0.502191 0.839424 0.003785 98.654602
+3     0.568946 0.283639 0.045012 99.102402
+SECTION_LOADAVG
+
+
+SECTION_PID_STATUS
+name: common_shell_ex
+state: 1
+vmsize: 1551772
+vmrss: 107420
+vmdata: 1185164
+vmstk: 132
+vmexe: 254328
+vmlib: 18048
+threads: 1
+
+SECTION_PROCESS_CPU_UTIL
+pid: 4002023
+cpu_total_time: 496093142
+cpu_used_time: 526
+cpu_p: 
+
+SECTION_SYSTEM_CPU_UTIL
+sys_cpu_p: 
+
+SECTION_MEMINFO
+memtotal: 16326688
+memfree: 8414768
+cached: 5583712
+swapcached: 0
+active: 2840300
+swaptotal: 7999484
+swapfree: 7999484
+
+SECTION_SMAPS
+shared_kb: 5372
+private_kb: 102176
+
+SECTION_DF
+Filesystem  Size  Used Avail Use%
+filesystem        378G  0G  374G    0
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          25239552  2215 25237337   4293828013
+
+SECTION_CWD
+Filesystem  Size  Used Avail Use%
+filesystem        8G  0G  8G    9
+
+Filesystem    Inodes   IUsed   IFree   IUse%
+filesystem          691246576  4859279 686387297   4294966529
+
+SECTION_SWAP_RATE
+blk_read: 4504
+blk_wrtn: 0
+swap_in_rate: 
+swap_out_rate: 
+swap_in_rate: 
+swap_out_rate: 
+
+SECTION_FD_SIZE
+files: 5
+total_size: 8421
+
+SECTION_NET_INTERFACE
+total_eth_avbl: 1
+
+name net_rx_err net_rx_drp net_tx_err net_tx_drp 
+  eth0:         0        28340        0        0
+
+SECTION_NFSSTAT
+readlink: 0
+write: 4
+getattr: 31
+retrans: 0
+raw_data: 
+net 0 0 0 0
+rpc 1738245 14 1738244
+proc3 22 0 76788 92 82 126 4 0 13 0 0 0 0 0 0 0 0 0 23 2745 18 9 0
+proc4 60 0 44644 79439 2419 99176 0 24687 566 91453 16727 140 433999 18 18 172 0 163 45928 551947 97639 36 6076 3767 1249 37 2426 104 14744 582 16433 244 91209 0 0 0 145 0 0 3 4 1 32136 1 3 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0
+
+
+SECTION_THREAD_CPU_UTIL
+4002023 : 4002023 (common_shell_ex) R 4001621 4002023 4001621 34816 4002023 4194304 6744 39773 18 0 117 10 319 80 30 10 1 0 124488525 1589014528 26855 18446744073709551615 4194304 264623796 140725464656144 0 0 0 1024 4096 1132490495 0 0 0 17 0 0 0 33 0 0 266721584 279989944 1471250432 140725464664467 140725464664639 140725464664639 140725464666027 0
+
+CRTE_PERIODIC_END 1 1575949784372

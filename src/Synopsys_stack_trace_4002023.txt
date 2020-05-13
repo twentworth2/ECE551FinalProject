@@ -1,0 +1,98 @@
+GNU gdb (Debian 7.12-6) 7.12.0.20161007-git
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+Attaching to process 4002023
+Reading symbols from /cae/apps/data/synopsys-2019/syn/P-2019.03/linux64/syn/bin/common_shell_exec...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libpthread.so.0...Reading symbols from /usr/lib/debug/.build-id/16/d609487bcc4acbac29a4eaa2dda0d2f56211ec.debug...done.
+done.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Reading symbols from /lib/x86_64-linux-gnu/librt.so.1...Reading symbols from /usr/lib/debug/.build-id/86/b35d63facd97d22973e99ee9863f7714c4f53a.debug...done.
+done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libX11.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXext.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXi.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXrender.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXrandr.so.2...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXss.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libfontconfig.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libfreetype.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libSM.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libICE.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXft.so.2...(no debugging symbols found)...done.
+Reading symbols from /cae/apps/data/synopsys-2019/CAE/lib/libtiff.so.3...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libmng.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libpng12.so.0...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libm.so.6...Reading symbols from /usr/lib/debug/.build-id/4e/49714c557ce0472c798f39365ca10f9c0e1933.debug...done.
+done.
+Reading symbols from /lib/x86_64-linux-gnu/libdl.so.2...Reading symbols from /usr/lib/debug/.build-id/db/2caeeec37482a98ab1416d0a9afe2944930de9.debug...done.
+done.
+Reading symbols from /lib/x86_64-linux-gnu/libc.so.6...Reading symbols from /usr/lib/debug/.build-id/77/5143e680ff0cd4cd51cce1ce8ca216e635a1d6.debug...done.
+done.
+Reading symbols from /lib64/ld-linux-x86-64.so.2...Reading symbols from /usr/lib/debug/.build-id/60/6df9c355103e82140d513bc7a25a635591c153.debug...done.
+done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libxcb.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libexpat.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libz.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libpng16.so.16...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libuuid.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libbsd.so.0...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/liblzma.so.5...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libjbig.so.0...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libjpeg.so.62...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/liblcms2.so.2...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXau.so.6...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libXdmcp.so.6...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libudev.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libdbus-glib-1.so.2...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libdbus-1.so.3...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libglib-2.0.so.0...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libsystemd.so.0...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libselinux.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libresolv.so.2...Reading symbols from /usr/lib/debug/.build-id/ea/d5fd817712e63c1212d1ee7d7ee1b9c29f93a7.debug...done.
+done.
+Reading symbols from /lib/x86_64-linux-gnu/libmount.so.1...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/libffi.so.6...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libpcre.so.3...(no debugging symbols found)...done.
+Reading symbols from /usr/lib/x86_64-linux-gnu/liblz4.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libgcrypt.so.20...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libblkid.so.1...(no debugging symbols found)...done.
+Reading symbols from /lib/x86_64-linux-gnu/libgpg-error.so.0...(no debugging symbols found)...done.
+0x00007f08f86bcffa in __GI___waitpid (pid=4002055, 
+    stat_loc=stat_loc@entry=0x7ffd3354dc10, options=options@entry=0)
+    at ../sysdeps/unix/sysv/linux/waitpid.c:29
+(gdb) (gdb) #0  0x00007f08f86bcffa in __GI___waitpid (pid=4002055, stat_loc=stat_loc@entry=0x7ffd3354dc10, options=options@entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:29
+#1  0x00007f08f86440ab in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:148
+#2  0x000000000bdfe9fd in SNPSee_4f1eca636f186904 ()
+#3  0x000000000bdc61e4 in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c735317487fd2aa296d8a7317 ()
+#4  0x000000000bdc7b1f in SNPSee_216f3c2f4c55dbceb170dcb7639b9c2cdd496024a8e266b98132685c73531748e1eb9162e9fd7182 ()
+#5  0x0000000000523f9b in SNPSee_f1ee00d2049be34bc9fa2aabd0709c661b77ea09a2cd7785 ()
+#6  0x000000000bc59a01 in SNPSee_b0111077a1564ec2f03c23d0bb102089295fca3df69878e1 ()
+#7  0x000000000bc5a56a in SNPSee_616b6e047c741ff1baf571efe85d3536eac68d027a1be0e0030a066449e92897 ()
+#8  0x000000000bc59b1c in SNPSee_b5b74bb29e23928e271a046254d5c62e ()
+#9  <signal handler called>
+#10 0x000000000bbec3db in SNPSee_76b6a4809917aaf62247b2cb1f3db52b41a3f274131de6cefc381479fd37a68c91d62b50eda23fa0fc22ec27f03fb3bb37c4f4ed893a5e3b ()
+#11 0x000000000bafb77a in SNPSee_71eecc7807dcda0ca2f63777f1590ea2328e1db91d44e59f ()
+#12 0x0000000001b46f6a in SNPSee_2e0ef7bff581d99745529509c9090bd091202a3a78248c5983a0460f3b0a5638 ()
+#13 0x00000000016b62cb in SNPSee_e63bb5063a698321fae98b935b212b5d75a3b42f038bc8dc7372951712eb57be ()
+#14 0x00000000005253a8 in SNPSee_673ef110e2fd3c45d5bed5a4867fbc5d18c4fba04d21c0e7da15f1b5c1d78b59061a28febd5610d1 ()
+#15 0x0000000000527b25 in SNPSee_a8c67c391924da59bb0a6e836c77e2d8 ()
+#16 0x00000000004fdf39 in SNPSee_5a24f30b88271223 ()
+#17 0x00007f08f86252e1 in __libc_start_main (main=0x4fdf30 <SNPSee_5a24f30b88271223>, argc=9, argv=0x7ffd3354e918, init=<optimized out>, fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7ffd3354e908) at ../csu/libc-start.c:291
+#18 0x0000000000522011 in SNPSee_d06eed713327be76 ()
+(gdb) Detaching from program: /cae/apps/data/synopsys-2019/syn/P-2019.03/linux64/syn/bin/common_shell_exec, process 4002023
+(gdb) 

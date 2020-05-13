@@ -1,0 +1,51 @@
+#read in design and set top level
+read_file -format sverilog { UART_tx.sv SPI_mstr.sv incline_sat.sv PB_rise.sv inertial_integrator.sv desiredDrive.sv telemetry.sv cadence_filt.sv PWM11.sv nonoverlap.sv PB_intf.sv rst_synch.sv A2D_intf.sv inert_intf.sv sensorCondition.sv PID.sv brushless.sv mtr_drv.sv eBike.sv}
+set current_design eBike
+
+#300 MHZ clock
+create_clock -name "clk" -period 3.30 -waveform {0 1.15} {clk}
+set_dont_touch_network [find port clk]
+
+#set a .5 ns input delay for all inputs
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+set_input_delay -clock clk 0.5 [copy_collection $prim_inputs]
+
+#set drive strengths of inputs
+set_driving_cell -lib_cell NAND2X1_RVT -library saed32rvt_tt0p85v25c [copy_collection $prim_inputs]
+set_driving_cell -lib_cell INVX16_RVT -library saed32rvt_tt0p85v25c [find port clk]
+#set a .5ns output delay for all outputs
+set_output_delay -clock clk 0.5 [all_outputs]
+
+#set capacitive load of outputs
+set_load 0.15 [all_outputs]
+
+
+#wireload size and transition time of .15ns
+set_wire_load_model -name 16000 -library saed32rvt_tt0p85v25c
+set_max_transition 0.15 [current_design]
+
+uniquify
+
+#first compile
+compile -map_effort medium
+
+#add clock uncertainty
+set_clock_uncertainty .15 clk
+set_fix_hold clk
+
+#flatten hierarchy
+ungroup -all -flatten
+
+#second compile
+compile -map_effort high
+
+#timing and area reports
+report_timing -delay max > max_delay.rpt
+report_timing -delay min > min_delay.rpt
+report_area  > eBike_area.txt
+
+#synthesized netlist
+write -format verilog eBike -output eBike.vg
+
+#apr file
+write_sdc eBike.sdc
