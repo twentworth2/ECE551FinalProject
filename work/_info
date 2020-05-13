@@ -1,0 +1,932 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Files/ECE551/modelsim/EX20
+T_opt
+!s110 1575914629
+V_2`dH`Z=HPE5EnR3eH1be1
+04 8 4 work eBike_tb fast 0
+=1-6c2b59d17a07-5dee8c84-25e-388
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+R0
+vA2D_intf
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1576014685
+!i10b 1
+!s100 __1Pkm1k;RhP8eb]j^nhm1
+!s11b 0hK^@e@z`eIo`lbUkD8lG0
+IP6]1_iZDoaIDcL=lI8NAm2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/filespace/j/jsporter3/ECE551/FinalProject
+w1575855393
+8/filespace/j/jsporter3/ECE551/FinalProject/src/A2D_intf.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/A2D_intf.sv
+L0 1
+Z5 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1576014685.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/A2D_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/A2D_intf.sv|
+!i113 1
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+n@a2@d_intf
+vA2D_intf_tb
+R1
+Z9 !s110 1575922717
+!i10b 1
+!s100 [FZ72Gz7N^25H8fN1<h442
+!s11b Whf7QWMUeMK6>KF05WX7f1
+I;;No8Td3RlT^U;cfBa2S32
+R3
+S1
+Z10 d/filespace/j/jsporter3/ECE551/Final Project
+w1574276152
+8/filespace/j/jsporter3/ECE551/Final Project/test/A2D_intf_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/A2D_intf_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1575922717.000000
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/A2D_intf_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/A2D_intf_tb.sv|
+!i113 1
+Z12 o-work work -sv
+R8
+n@a2@d_intf_tb
+vAnalogModel
+R1
+R2
+!i10b 1
+!s100 V5Mo]QPJ?<ojR=o8>V^H10
+!s11b ke`MBW??kXiTdgQcUODjX0
+INh<_X<O@zZc>YW5oHG]4]1
+R3
+S1
+R4
+w1574696070
+8/filespace/j/jsporter3/ECE551/FinalProject/src/AnalogModel.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/AnalogModel.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/AnalogModel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/AnalogModel.sv|
+!i113 1
+R7
+R8
+n@analog@model
+vbrushless
+R1
+Z13 !s110 1576014686
+!i10b 1
+!s100 73N:o6`1LmO9EbGkSdn3_3
+!s11b 2F6DmN:2RQ9NCUQU0PP7=1
+IIoS@^=L<Zm[:HLlaYM=LO2
+R3
+S1
+R4
+w1572985343
+8/filespace/j/jsporter3/ECE551/FinalProject/src/brushlessBroke.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/brushlessBroke.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z14 !s108 1576014686.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/brushlessBroke.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/brushlessBroke.sv|
+!i113 1
+R7
+R8
+vbrushless_mtr_drv_tb
+R1
+R9
+!i10b 1
+!s100 `YaQ@=SZl:Mm9YEz4E7kS1
+!s11b 9614@GM`CzYTW@6<lQRbY0
+IKH]@C]_6LFib5izYCTM2N0
+R3
+S1
+R10
+w1572985394
+8/filespace/j/jsporter3/ECE551/Final Project/test/brushless_mtr_drv_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/brushless_mtr_drv_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/brushless_mtr_drv_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/brushless_mtr_drv_tb.sv|
+!i113 1
+R12
+R8
+vcadence_filt
+R1
+R13
+!i10b 1
+!s100 2D]2S1:YN5b3P3lg?5ID@2
+!s11b IZ5MFQCW;QlaBk82;2z:z1
+Ib>ooiXS@W3b6cL>P<82jP1
+R3
+S1
+R4
+w1575400543
+8/filespace/j/jsporter3/ECE551/FinalProject/src/cadence_filt.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/cadence_filt.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/cadence_filt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/cadence_filt.sv|
+!i113 1
+R7
+R8
+vcadence_filt_tb
+R1
+R9
+!i10b 1
+!s100 `I`@HlzE]=CdGcm4SQLKY1
+!s11b Uz0XKghK>0JcK`KU:bo490
+IilNbo2KcPzhDeZdCE]fHe0
+R3
+S1
+R10
+w1569877265
+8/filespace/j/jsporter3/ECE551/Final Project/test/cadence_filt_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/cadence_filt_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/cadence_filt_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/cadence_filt_tb.sv|
+!i113 1
+R12
+R8
+vdesiredDrive
+R1
+R13
+!i10b 1
+!s100 WfziN[RX1n_m[kYg;N?1b2
+!s11b LQn>E8Ih<C1oH;ID9g0jM0
+I3MPh8;dM4dgfBS^Dz:B9k3
+R3
+S1
+R4
+w1575864321
+8/filespace/j/jsporter3/ECE551/FinalProject/src/desiredDrive250.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/desiredDrive250.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/desiredDrive250.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/desiredDrive250.sv|
+!i113 1
+R7
+R8
+ndesired@drive
+vdesiredDrive_tb
+R1
+Z15 !s110 1575922718
+!i10b 1
+!s100 f4]b2>1C5`neKmW9Q2g:z1
+!s11b ;I5j8RlMn7Z[maTfX86P82
+IQCh;3KL:_Xz?XD@`;zAFf0
+R3
+S1
+R10
+w1569811533
+8/filespace/j/jsporter3/ECE551/Final Project/test/desiredDrive_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/desiredDrive_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/desiredDrive_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/desiredDrive_tb.sv|
+!i113 1
+R12
+R8
+ndesired@drive_tb
+veBike
+R1
+R13
+!i10b 1
+!s100 jo:f8]f]zgTeaDmVhT]H^2
+!s11b <?60ZTdk1gAmKD:oIONa70
+I343zQnHeACIb]78^YW]QS0
+R3
+S1
+R4
+w1575922301
+8/filespace/j/jsporter3/ECE551/FinalProject/src/eBike.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/eBike.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/eBike.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/eBike.sv|
+!i113 1
+R7
+R8
+ne@bike
+veBike_tb
+R1
+Z16 !s110 1576014687
+!i10b 1
+!s100 kGhHflZd;z2[0XY^^Fz:n0
+!s11b D9adVHNVdf`md3S3ih1552
+I^GEeWUBzaa7=i7lSDfm`A2
+R3
+S1
+R4
+w1575919920
+8/filespace/j/jsporter3/ECE551/FinalProject/src/eBike_tb.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/eBike_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/eBike_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/eBike_tb.sv|
+!i113 1
+R7
+R8
+ne@bike_tb
+veBikePhysics
+R1
+R16
+!i10b 1
+!s100 Imddj1KfZHXS8<?U6I>nH1
+!s11b BhR81?2G6N[kfaT9z6LlS1
+If2]K`2LaYR>O;KKiAW1CX2
+R3
+S1
+R4
+w1575828525
+8/filespace/j/jsporter3/ECE551/FinalProject/src/eBikePhysics.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/eBikePhysics.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z17 !s108 1576014687.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/eBikePhysics.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/eBikePhysics.sv|
+!i113 1
+R7
+R8
+ne@bike@physics
+vincline_sat
+R1
+R16
+!i10b 1
+!s100 9S=Li0FGM<n_mR]JjGR:g2
+!s11b U^H]K:LAK5UPRo@Q9X=GN0
+IAW0=IFMQ>JC2Ne937681N0
+R3
+S1
+R4
+w1575402901
+8/filespace/j/jsporter3/ECE551/FinalProject/src/incline_sat.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/incline_sat.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/incline_sat.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/incline_sat.sv|
+!i113 1
+R7
+R8
+vinert_intf
+R1
+R16
+!i10b 1
+!s100 kSJDUe_eQ`zI9L=zHEZn]1
+!s11b _Icn5j:o3``fG[=>X;aOz1
+ICjFOGUXOEJ@=>bdkmfdD^2
+R3
+S1
+R4
+w1575913653
+8/filespace/j/jsporter3/ECE551/FinalProject/src/inert_intf.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/inert_intf.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/inert_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/inert_intf.sv|
+!i113 1
+R7
+R8
+vinert_intf_test
+R1
+R15
+!i10b 1
+!s100 P]DKYZA3l=d6kV`71@Fe81
+!s11b kFc=`Zlal7fZl@NVTX5S@3
+IU]O=U=;PAd@l5=R24]JXA3
+R3
+S1
+R10
+Z18 w1575754843
+8/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z19 !s108 1575922718.000000
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test.sv|
+!i113 1
+R12
+R8
+vinert_intf_test_tb
+R1
+R15
+!i10b 1
+!s100 ikW6@KWek9DYjneU5dXDB1
+!s11b `QA;N7M7I8ZdYNMIN@6Jj2
+IcE4;2Ukn27>ZY0UG2dK8h2
+R3
+S1
+R10
+R18
+8/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/inert_intf_test_tb.sv|
+!i113 1
+R12
+R8
+vinertial_integrator
+R1
+R16
+!i10b 1
+!s100 iE15D`5MoVF[kWKlOM9oE2
+!s11b O]M[kTm4jM6@CNH439boI3
+I5KOQ`bRlgEo6IMCzgl<ni1
+R3
+S1
+R4
+R18
+8/filespace/j/jsporter3/ECE551/FinalProject/src/inertial_integrator.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/inertial_integrator.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/inertial_integrator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/inertial_integrator.sv|
+!i113 1
+R7
+R8
+vmtr_drv
+R1
+R16
+!i10b 1
+!s100 [bC3W;IK1=5dI4<ZSm>?O2
+!s11b ?l=Fih7I;IM@`hlTC^2;O0
+I=;1:D5eb`T=@WCBK3G1cJ3
+R3
+S1
+R4
+w1572712730
+8/filespace/j/jsporter3/ECE551/FinalProject/src/mtr_drv.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/mtr_drv.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/mtr_drv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/mtr_drv.sv|
+!i113 1
+R7
+R8
+vnonoverlap
+R1
+Z20 !s110 1576014688
+!i10b 1
+!s100 RV?Ma9k9Xzg2UaQ3>YGoh3
+!s11b @;a1`b7<KE=gPoF<W3hl^0
+IDbAaGMlHmFF`18^>gd0>T0
+R3
+S1
+R4
+w1575922189
+8/filespace/j/jsporter3/ECE551/FinalProject/src/nonoverlap.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/nonoverlap.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R17
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/nonoverlap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/nonoverlap.sv|
+!i113 1
+R7
+R8
+vnonoverlap_tb
+R1
+R15
+!i10b 1
+!s100 `4@BM94?OP5@_Ra70LWJc1
+!s11b chCnCmVWB:UL<>_S`K<:F1
+IzLPDdW`K9JK41l=YTZ<Ub1
+R3
+S1
+R10
+w1571160720
+8/filespace/j/jsporter3/ECE551/Final Project/test/nonoverlap_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/nonoverlap_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/nonoverlap_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/nonoverlap_tb.sv|
+!i113 1
+R12
+R8
+vPB_intf
+R1
+R20
+!i10b 1
+!s100 EllSU5Rg=;4inedoQSJnm0
+!s11b Uiib=UGJ[cgYc^RV]C?jB0
+I_D4Ed<kQ8EbF<a72_zaW;2
+R3
+S1
+R4
+w1575768853
+8/filespace/j/jsporter3/ECE551/FinalProject/src/PB_intf.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/PB_intf.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z21 !s108 1576014688.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/PB_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/PB_intf.sv|
+!i113 1
+R7
+R8
+n@p@b_intf
+vPB_rise
+R1
+R20
+!i10b 1
+!s100 CmTh1f1ALc2QWgf38[m6g2
+!s11b 7Z6YN^V_oe_N=z_o@DO:=1
+I:ZmaK4kLV=2;i5CZa8B700
+R3
+S1
+R4
+w1571238828
+8/filespace/j/jsporter3/ECE551/FinalProject/src/PB_rise.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/PB_rise.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/PB_rise.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/PB_rise.sv|
+!i113 1
+R7
+R8
+n@p@b_rise
+vPID
+R1
+R20
+!i10b 1
+!s100 9dSeLZ2jSLO:X5KOK6Qk`1
+!s11b ljlJJHbg;NMz3>;?7o2?f1
+I_SdA]DGRfY^?hlHJQI?HM2
+R3
+S1
+R4
+w1575859818
+8/filespace/j/jsporter3/ECE551/FinalProject/src/PID.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/PID.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/PID.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/PID.sv|
+!i113 1
+R7
+R8
+n@p@i@d
+vPID_tb
+R1
+R15
+!i10b 1
+!s100 IR17RagF_8jNeEGN6CITB3
+!s11b ZX@6j9=g1[=E_GSic9`@D3
+I7RK_;_X05Yl7b]BF[g0P40
+R3
+S1
+R10
+w1573759032
+8/filespace/j/jsporter3/ECE551/Final Project/test/PID_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/PID_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/PID_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/PID_tb.sv|
+!i113 1
+R12
+R8
+n@p@i@d_tb
+vplant_PID
+!s105 plant_PID_sv_unit
+DXx4 work 17 plant_PID_sv_unit 0 22 ZS;hL5h96Kdb`i?D<496g0
+R1
+R15
+!i10b 1
+!s100 YEF^k88elm^9k<=gF8MMY1
+!s11b <V;DPW_241GmQ_9njDWG83
+I]71l39:aLWXeeVY`oCgLU3
+R3
+S1
+R10
+Z22 w1573755152
+Z23 8/filespace/j/jsporter3/ECE551/Final Project/test/plant_PID.sv
+Z24 F/filespace/j/jsporter3/ECE551/Final Project/test/plant_PID.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+Z25 !s107 /filespace/j/jsporter3/ECE551/Final Project/test/plant_PID.sv|
+Z26 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/plant_PID.sv|
+!i113 1
+R12
+R8
+nplant_@p@i@d
+Xplant_PID_sv_unit
+R1
+VZS;hL5h96Kdb`i?D<496g0
+r1
+!s85 0
+!i10b 1
+!s100 M<I6g^?:5;5]iFLd[@CdR0
+IZS;hL5h96Kdb`i?D<496g0
+!i103 1
+S1
+R10
+R22
+R23
+R24
+L0 70
+R5
+31
+R19
+R25
+R26
+!i113 1
+R12
+R8
+nplant_@p@i@d_sv_unit
+vPWM11
+R1
+R20
+!i10b 1
+!s100 M[0bj]e]S<^H9H7k;[YPG2
+!s11b ^A;UN_a1B?Y<eQhPN=ff<0
+I0ESi=cejWAN7c:B_hBFBI0
+R3
+S1
+R4
+w1575473047
+8/filespace/j/jsporter3/ECE551/FinalProject/src/PWM11.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/PWM11.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/PWM11.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/PWM11.sv|
+!i113 1
+R7
+R8
+n@p@w@m11
+vPWM_tb
+R1
+R15
+!i10b 1
+!s100 NG<QS_T@Ioo3hlIl<hgEM3
+!s11b 09IU;QUi1:FJ6lZj1<]NY3
+IlCRI72_>>f>QZmOOjK:;D0
+R3
+S1
+R10
+w1571160325
+8/filespace/j/jsporter3/ECE551/Final Project/test/PWM_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/PWM_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/PWM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/PWM_tb.sv|
+!i113 1
+R12
+R8
+n@p@w@m_tb
+vrst_synch
+R1
+R20
+!i10b 1
+!s100 VYhoUn_lMTnfLzCUkYIPN3
+!s11b `5mj^3>EaIY_Ygc^aKXFl1
+IdU5B=I9D2WOTZhg4hNbUn0
+R3
+S1
+R4
+w1571411637
+8/filespace/j/jsporter3/ECE551/FinalProject/src/rst_synch.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/rst_synch.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/rst_synch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/rst_synch.sv|
+!i113 1
+R7
+R8
+vsensorCondition
+R1
+R20
+!i10b 1
+!s100 0dZIh3E7RooDXdR1[[Ine0
+!s11b 9LhHcEmahcR8R7JHW]kbE3
+I2e5Y?Be:j_27^9>6?=eSE2
+R3
+S1
+R4
+w1575865601
+8/filespace/j/jsporter3/ECE551/FinalProject/src/sensorCondition.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/sensorCondition.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/sensorCondition.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/sensorCondition.sv|
+!i113 1
+R7
+R8
+nsensor@condition
+vsensorCondition_tb
+R1
+Z27 !s110 1575922719
+!i10b 1
+!s100 jTDP@1ZnfdfJ@oWbQncL00
+!s11b XmY8nggPG8^J32UQo2DXU2
+If7bh`U6LX4:PMeh]QKNmg2
+R3
+S1
+R10
+w1575414756
+8/filespace/j/jsporter3/ECE551/Final Project/test/sensorCondition_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/sensorCondition_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R19
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/sensorCondition_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/sensorCondition_tb.sv|
+!i113 1
+R12
+R8
+nsensor@condition_tb
+vSPI_ADC128S
+R1
+Z28 !s110 1576014689
+!i10b 1
+!s100 93oj0i;UV@::cHMPGHMJ>1
+!s11b TC^O^B1ahL`30S1Mz8RJN2
+I^ZHB[<5mT0gGJ5:Ne:D=D3
+R3
+S1
+R4
+w1442691960
+8/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_ADC128S.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_ADC128S.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R21
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_ADC128S.sv|
+!i113 1
+R7
+R8
+n@s@p@i_@a@d@c128@s
+vSPI_mstr
+R1
+R28
+!i10b 1
+!s100 iMo?>cE=?3Z?ac`S0@0V62
+!s11b <9ik6n>@aUD`g^:4i_>k:2
+IgASg0hMFGDCKYBbF4bLE=1
+R3
+S1
+R4
+w1571161516
+8/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_mstr.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_mstr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z29 !s108 1576014689.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/SPI_mstr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/SPI_mstr.sv|
+!i113 1
+R7
+R8
+n@s@p@i_mstr
+vSPI_mstr_tb
+R1
+R27
+!i10b 1
+!s100 4APmcRK=8CTgcCTbbdnnY3
+!s11b U>B]9P0lBR<^dV25<EVL53
+ITz:i=@_ohGeGAe96;RebY3
+R3
+S1
+R10
+w1571161497
+8/filespace/j/jsporter3/ECE551/Final Project/test/SPI_mstr_tb.sv
+F/filespace/j/jsporter3/ECE551/Final Project/test/SPI_mstr_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1575922719.000000
+!s107 /filespace/j/jsporter3/ECE551/Final Project/test/SPI_mstr_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/test/SPI_mstr_tb.sv|
+!i113 1
+R12
+R8
+n@s@p@i_mstr_tb
+vtelemetry
+R1
+R28
+!i10b 1
+!s100 jYOiJX8_MD>ZM<QJTNzfS1
+!s11b ji7UhD;n^f;lNn`0gg4L]1
+I8dzOQof_b[;f[E@kgc>al3
+R3
+S1
+R4
+w1575922087
+8/filespace/j/jsporter3/ECE551/FinalProject/src/telemetry.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/telemetry.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R29
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/telemetry.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/telemetry.sv|
+!i113 1
+R7
+R8
+vUART_rcv
+R1
+R28
+!i10b 1
+!s100 e?H4N6Ja[5LK1c7S6k>G20
+!s11b g[VGJBiW8nOVB^Zg]QmzQ3
+IhEk23zEMaJhPlI_^emLWW0
+R3
+S1
+R4
+w1564693686
+8/filespace/j/jsporter3/ECE551/FinalProject/src/UART_rcv.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/UART_rcv.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R29
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/UART_rcv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/UART_rcv.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_rcv
+vUART_tx
+R1
+R28
+!i10b 1
+!s100 :Q@`FTZ_K_VTzGPje<fZh0
+!s11b CJ]S<>Ec:oZG>1SAmhLhX1
+ITfng>EP>eX9;Xim]mlCT41
+R3
+S1
+R4
+w1564691438
+8/filespace/j/jsporter3/ECE551/FinalProject/src/UART_tx.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/src/UART_tx.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R29
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/src/UART_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/src/UART_tx.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_tx
