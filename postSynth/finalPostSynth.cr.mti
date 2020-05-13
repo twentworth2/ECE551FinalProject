@@ -1,0 +1,36 @@
+/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv {1 {vlog -work work -sv -stats=none /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module eBike_tb
+
+Top level modules:
+	eBike_tb
+
+} {} {}} /filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv {1 {vlog -work work -sv -stats=none /filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv {1 {vlog -work work -sv -stats=none /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module eBikePhysics
+
+Top level modules:
+	eBikePhysics
+
+} {} {}} /filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv {1 {vlog -work work -sv -stats=none /filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module AnalogModel
+
+Top level modules:
+	AnalogModel
+
+} {} {}} /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg {1 {vlog -work work -stats=none /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg
+Model Technology ModelSim DE vlog 2019.2 Compiler 2019.04 Apr 16 2019
+-- Compiling module eBike
+
+Top level modules:
+	eBike
+
+} {} {}}

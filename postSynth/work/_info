@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/filespace/j/jsporter3/ECE551/Final Project
+vAnalogModel
+Z0 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1576026461
+!i10b 1
+!s100 `c;lNIGeTW?B_?7Sl9<SJ3
+!s11b ^[1eDPl1T@<;ib<]DF0dC3
+ILdK[n?=KHf924C7UbLZWB2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z2 d/filespace/j/jsporter3/ECE551/FinalProject/postSynth
+w1575910484
+8/filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv
+L0 2
+Z3 OP;L;2019.2;69
+r1
+!s85 0
+31
+!s108 1576026461.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/postSynth/AnalogModel.sv|
+!i113 1
+Z4 o-work work -sv
+Z5 tCvgOpt 0
+n@analog@model
+veBike
+Z6 !s110 1576026462
+!i10b 1
+!s100 _ilXcWCZY?V;B^BI29LCY3
+!s11b AmT0^MZ0]D5I[7DW2W;?<3
+IaIS@nFgHY?adCMW5Li`k`1
+R1
+R2
+w1576025270
+8/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg
+F/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg
+L0 8
+R3
+r1
+!s85 0
+31
+Z7 !s108 1576026462.000000
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike.vg|
+!i113 1
+Z8 o-work work
+R5
+ne@bike
+veBike_tb
+R0
+R6
+!i10b 1
+!s100 GI_;U_FC?G6H^D[EC9<Ga2
+!s11b MT]0?W7eP00OO@AQhN?5J1
+IBanjHLGVHVIhMekQfTXBN1
+R1
+S1
+R2
+w1576026454
+8/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBike_tb.sv|
+!i113 1
+R4
+R5
+ne@bike_tb
+veBikePhysics
+R0
+R6
+!i10b 1
+!s100 fz;RZ5aAifQP^:k9COYn]1
+!s11b zI8_JcJV]2`mIVQKBWL]z3
+IkQ<H[LmEM@n1mOJ^EmSZA1
+R1
+S1
+R2
+w1575910481
+8/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/postSynth/eBikePhysics.sv|
+!i113 1
+R4
+R5
+ne@bike@physics
+vSPI_ADC128S
+R0
+R6
+!i10b 1
+!s100 @M>cI@BiCgbk0e0kN@>O^2
+!s11b J2zF<d]4fW]e:0lHQC2X?2
+IK`KAEL`C_LK9gI=IcaAG;1
+R1
+S1
+R2
+w1575910477
+8/filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv
+F/filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 /filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/filespace/j/jsporter3/ECE551/FinalProject/postSynth/SPI_ADC128S.sv|
+!i113 1
+R4
+R5
+n@s@p@i_@a@d@c128@s
+vtelemetry
+Z9 !s110 1575909501
+!i10b 1
+!s100 6ShhM;[Y2MJKMWH3EPPmM0
+!s11b Oio`jhOKfgdLchRaNLFY<2
+IKi`WD9?VNiPz53L49OHRP0
+R1
+Z10 d/filespace/j/jsporter3/ECE551/Final Project/postSynth
+Z11 w1575909352
+Z12 8/filespace/j/jsporter3/ECE551/Final Project/postSynth/eBike.vg
+Z13 F/filespace/j/jsporter3/ECE551/Final Project/postSynth/eBike.vg
+L0 37
+R3
+r1
+!s85 0
+31
+Z14 !s108 1575909501.000000
+Z15 !s107 /filespace/j/jsporter3/ECE551/Final Project/postSynth/eBike.vg|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|/filespace/j/jsporter3/ECE551/Final Project/postSynth/eBike.vg|
+!i113 1
+R8
+R5
+vtelemetry_DW01_inc_0
+R9
+!i10b 1
+!s100 E<KgXLnLP`c7=X8lX[`fc3
+!s11b 6j92>gEzhm34B;I4MaF]m1
+ILnE9kdn3SW92]mjJa[GY12
+R1
+R10
+R11
+R12
+R13
+L0 8
+R3
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R8
+R5
+ntelemetry_@d@w01_inc_0

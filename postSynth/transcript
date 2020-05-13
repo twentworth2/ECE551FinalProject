@@ -1,0 +1,1277 @@
+# Loading project postSynth
+# reading /cae/apps/data/mentor-2019/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project brushmtr
+# Compile of brushless_mtr_drv_tb.sv was successful.
+# Compile of brushless.vg was successful.
+# Compile of mtr_drv.vg was successful.
+# Compile of PWM11.vg was successful.
+# 4 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of brushless_mtr_drv_tb.sv was successful.
+# Compile of brushless.vg was successful.
+# Compile of mtr_drv.vg was successful.
+# Compile of PWM11.vg was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.brushless_mtr_drv_tb -t ns +notimingchecks -L /filespace/j/jsporter3/ECE551/SAED32_lib
+# vsim work.brushless_mtr_drv_tb -t ns "+notimingchecks" -L /filespace/j/jsporter3/ECE551/SAED32_lib 
+# Start time: 15:03:06 on Dec 09,2019
+# //  ModelSim DE 2019.2 Apr 16 2019 Linux 4.9.0-11-amd64
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.brushless_mtr_drv_tb
+# Loading work.brushless
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO21X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AND2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.INVX1_RVT
+# Loading work.mtr_drv
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.SDFFARX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFARX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFSSRX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OA221X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO221X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO222X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AOI22X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.XNOR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO22X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.XOR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.MUX21X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.HADDX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NBUFFX2_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND4X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NOR2X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND2X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OR3X2_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND3X0_RVT
+# Loading work.PWM11
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OA222X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_dff_pos_lvt
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_xbuf_lvt
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_mux_lvt
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.s_mux21x1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 62
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(63)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 63
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/green \
+sim:/brushless_mtr_drv_tb/yellow \
+sim:/brushless_mtr_drv_tb/blue
+# Compile of brushless_mtr_drv_tb.sv was successful.
+# Compile of brushless.vg was successful.
+# Compile of mtr_drv.vg was successful.
+# Compile of PWM11.vg was successful.
+# 4 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/hallSelect
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/drv_mag
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/clk \
+sim:/brushless_mtr_drv_tb/rst_n \
+sim:/brushless_mtr_drv_tb/brake_n
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.brushless_mtr_drv_tb
+# Loading work.brushless
+# Loading work.mtr_drv
+# Loading work.PWM11
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 63
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(64)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 64
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: OFF
+# blue: reverse
+#    Time: 290 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 72
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(73)
+#    Time: 290 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 73
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/selGrn \
+sim:/brushless_mtr_drv_tb/selYlw \
+sim:/brushless_mtr_drv_tb/selBlu
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 63
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(64)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 64
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/pwm/PWM_sig
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 63
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(64)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 64
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/duty
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 63
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(64)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 64
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/iDutDrv/selGrn \
+sim:/brushless_mtr_drv_tb/iDutDrv/selYlw \
+sim:/brushless_mtr_drv_tb/iDutDrv/selBlu
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 54
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(54): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 64
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(64): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 74
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(74): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 84
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 94
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(94): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 100
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(100): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 103
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(103): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 121
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(121): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 123
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(123): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 63
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(64)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 64
+quit -sim
+# End time: 15:25:09 on Dec 09,2019, Elapsed time: 0:22:03
+# Errors: 3, Warnings: 64
+# Compile of brushless_mtr_drv_tb.sv was successful.
+# Compile of brushless.vg was successful.
+# Compile of mtr_drv.vg was successful.
+# Compile of PWM11.vg was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -t ns +notimingchecks -L /filespace/j/jsporter3/ECE551/SAED32_lib work.brushless_mtr_drv_tb
+# vsim -t ns "+notimingchecks" -L /filespace/j/jsporter3/ECE551/SAED32_lib work.brushless_mtr_drv_tb 
+# Start time: 15:25:51 on Dec 09,2019
+# Loading sv_std.std
+# Loading work.brushless_mtr_drv_tb
+# Loading work.brushless
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO21X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AND2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.INVX1_RVT
+# Loading work.mtr_drv
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.SDFFARX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFARX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.DFFSSRX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OA221X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO221X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO222X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AOI22X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.XNOR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.AO22X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.XOR2X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.MUX21X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.HADDX1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NBUFFX2_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND4X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NOR2X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND2X0_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OR3X2_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.NAND3X0_RVT
+# Loading work.PWM11
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.OA222X1_RVT
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_dff_pos_lvt
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_xbuf_lvt
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'iDutDrv'.  Expected 13, found 12.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 26
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(26): [TFMPC] - Missing connection for port 'PWM_sig'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.saed32_mux_lvt
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 56
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(56): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 66
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(66): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 76
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(76): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 86
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(86): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 96
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(96): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 102
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(102): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 120
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(120): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 122
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(122): [TFMPC] - Missing connection for port 'QN'.
+# Loading /filespace/j/jsporter3/ECE551/SAED32_lib.s_mux21x1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 219
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(219): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/iDutDrv/selGrn \
+sim:/brushless_mtr_drv_tb/iDutDrv/selYlw \
+sim:/brushless_mtr_drv_tb/iDutDrv/selBlu \
+sim:/brushless_mtr_drv_tb/iDutDrv/PWM_sig
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/duty \
+sim:/brushless_mtr_drv_tb/selGrn \
+sim:/brushless_mtr_drv_tb/selYlw \
+sim:/brushless_mtr_drv_tb/selBlu \
+sim:/brushless_mtr_drv_tb/highGrn \
+sim:/brushless_mtr_drv_tb/lowGrn \
+sim:/brushless_mtr_drv_tb/highYlw \
+sim:/brushless_mtr_drv_tb/lowYlw \
+sim:/brushless_mtr_drv_tb/highBlu \
+sim:/brushless_mtr_drv_tb/lowBlu
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 62
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(63)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 63
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/green \
+sim:/brushless_mtr_drv_tb/yellow \
+sim:/brushless_mtr_drv_tb/blue
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'iDutDrv'.  Expected 13, found 12.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 26
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(26): [TFMPC] - Missing connection for port 'PWM_sig'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 56
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(56): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 66
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(66): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 76
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(76): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 86
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(86): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 96
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(96): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 102
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(102): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 120
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(120): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 122
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(122): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 219
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(219): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 62
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(63)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 63
+add wave -position insertpoint  \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapHighGreen \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapLowGreen \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapHighYellow \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapLowYellow \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapHighBlue \
+sim:/brushless_mtr_drv_tb/iDutDrv/overlapLowBlue
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 59
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(59): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\ff1_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutBrush/\ff1_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg Line: 61
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless.vg(61): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'iDutDrv'.  Expected 13, found 12.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 26
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(26): [TFMPC] - Missing connection for port 'PWM_sig'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 42
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 44
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(44): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 48
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(48): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 50
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(50): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 52
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(52): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 56
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(56): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 58
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(58): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 60
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(60): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 62
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(62): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 66
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(66): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 68
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(68): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 70
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(70): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 72
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(72): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 76
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(76): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Yellow/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Yellow/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 78
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(78): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/highOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/highOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 80
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/lowOut_reg '.  Expected 7, found 6.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/lowOut_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 82
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 86
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(86): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[3] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[3]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 88
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(88): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[2] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[2]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 90
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(90): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 92
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(92): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldHI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldHI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 96
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(96): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\Blue/oldLI_reg '.  Expected 6, found 5.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\Blue/oldLI_reg  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 98
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(98): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 102
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(102): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[1] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[1]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 120
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(120): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\pwm/count_reg[0] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\pwm/count_reg[0]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 122
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(122): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\green/count_reg[4] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/iDutDrv/\green/count_reg[4]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg Line: 219
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/mtr_drv.vg(219): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\count_reg[10] '.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/\count_reg[10]  File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 38
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(38): [TFMPC] - Missing connection for port 'Q'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'PWM_sig_reg'.  Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb/pwm/PWM_sig_reg File: /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg Line: 39
+# ** Warning: (vsim-3722) /filespace/j/jsporter3/ECE551/brushmtr synth/PWM11.vg(39): [TFMPC] - Missing connection for port 'QN'.
+run -all
+# ** Error: ERR: signals should have been:
+# green: forward
+# yellow: reverse
+# blue: OFF
+#    Time: 146 ns  Scope: brushless_mtr_drv_tb File: /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv Line: 62
+# ** Note: $stop    : /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv(63)
+#    Time: 146 ns  Iteration: 1  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at /filespace/j/jsporter3/ECE551/brushmtr synth/brushless_mtr_drv_tb.sv line 63
+quit -sim
+# End time: 15:47:34 on Dec 09,2019, Elapsed time: 0:21:43
+# Errors: 55, Warnings: 66
+# reading /cae/apps/data/mentor-2019/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project nonoverlapSynth
+# Compile of nonoverlap_tb.sv was successful.
+# Compile of nonoverlap.vg was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# -- Giving up waiting on lock. Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# -- Giving up waiting on lock. Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# -- Giving up waiting on lock. Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Error: WriteIniString /filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf failed: 2
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".
+# ** Warning: (vish-6) -- Waiting for lock by "; vsim modelsim.ini file". Lockfile is "/filespace/j/jsporter3/ECE551/nonOverlapSynth/nonoverlapSynth.mpf_lock".

@@ -1,0 +1,19 @@
+Initializing gui preferences from file  /filespace/j/jsporter3/.synopsys_icc_prefs.tcl
+Warning: Cannot use command line editor for terminal type 'xterm'.  (UI-74)
+icc_shell> gui_start
+Information: Visibility is turned ON for cells and cell contents because the task is set to Block Implementation (GUI-026)
+icc_shell> open_mw_lib /filespace/j/jsporter3/ECE551/FinalProject/APR
+Error: Cannot open library /filespace/j/jsporter3/ECE551/FinalProject/APR for write. (MW-006)
+icc_shell> open_mw_lib /filespace/j/jsporter3/ECE551/FinalProject/APR/apr_lib
+{apr_lib}
+icc_shell> ::iccGUI::open_mw_cel  -readonly  eBike
+icc_shell> open_mw_cel -readonly eBike
+Preparing data for query................... 
+Information: Using CCS timing libraries. (TIM-024)
+Warning: Unit conflict found: Milkyway technology file resistance unit is kOhm; main library resistance unit is MOhm. (IFS-007)
+Warning: Unit conflict found: Milkyway technology file power unit is pW; main library power unit is uW. (IFS-007)
+Information: Opened "eBike.CEL;1" from "/filespace/j/jsporter3/ECE551/FinalProject/APR/apr_lib" library. (MWUI-068)
+{eBike}
+icc_shell> 
+icc_shell> 
+Exit IC Compiler!
